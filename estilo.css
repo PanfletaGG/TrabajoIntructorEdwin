@@ -3,7 +3,7 @@ body {
 }
  header {
     text-align: center;
-    background-image: url(./imagenes/imagen\ de\ fondo.jfif);
+    background-image: url(imagen de fondo.jfif);
     border: 2px solid black;
     align-items: center;
     justify-content: center;
