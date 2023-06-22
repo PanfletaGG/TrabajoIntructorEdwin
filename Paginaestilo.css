@@ -11,6 +11,14 @@ body  {
     font-family: 'Roboto Condensed', sans-serif;
     background-color:  #F0E68C;
 }
+footer {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    border: 2px solid black
+}
 
 
  
