@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html { 
+ font-size: 15px;
+ font-family: 'Roboto Condensed', sans-serif;;
+ 
+ }
+ .logo {
+    font-weight: 600;
+    font-size: 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+ 
+ nav{
+    width: 100%;
+    display: flex;
+    align-items: justify;
+    justify-content: space-between;
+    background-color: rgb(251, 165, 79);
+ 
+ }
+  ul li { 
+    display: inline-block;
+    list-style: none;
+    padding: 6px 20px;
+    transition-duration: all 0.3s;
+    font-weight: 500;
+    font-size: 1.7rem;
+    font-family: 'Roboto Condensed', sans-serif;;
+ }
+ a {
+    background-color: none;
+    text-decoration:none;
+    color: black;
+    background-color:none;
+ 
+ }
+ a :hover{
+    scale: 1.1;
+    color: rgb(209, 0, 0);
+    background-color: rgb(179, 0, 0);
+    cursor: pointer;   
+ }
+ li :hover{
+    scale: 1.1;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    cursor: pointer;
+ }
+ .informacion{
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+ }
+ .htmltrans{
+    width: 280px;
+    height: 280px;
+ }
+ footer{
+    background-color:  rgb(251, 165, 79);
+ }
+ .imgtranshtml{
+    text-align: center;
+ }
+ .info2{
+    padding-left: 15px;
+    text-align: center;
+ }
+ .ejemplohtml img{
+    margin-left: 450px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px rgb(0, 0, 0) solid;
+ }   
+ .footercss{
+    background-color: rgb(32, 192, 255);
+ }
+ .navcss{
+    background-color: rgb(32, 192, 255);
+ }
+ .imagenejemplocodigo{
+    text-align: center;
+ }
+ div{
+    border-color: black 12px solid;
+ }
+ .ejemplocodigocss{
+    text-align: center
+ }
+ footer {
+    width: 1900px;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    border: 2px solid black
+}
+
+.iconos {
+    position: end;
+    bottom: 0%;
+    padding: 0 50px;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.iconos > a{
+    font-size: 2.5rem;
+    padding: 0 10px;
+    transition: all 0.3 ease 0s;
+    cursor: pointer;
+}
+
+.iconos > a:hover {
+    color: blue;
+    background-color:white;      
+}
+.infoxd{
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+.sintaxis{
+    text-align: center;
+    padding: 30px 30px 30px 30px
+}
+
+.sintaxicss img{
+    margin-left: 320px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px rgb(0, 0, 0) solid;
+}
