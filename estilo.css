@@ -1,0 +1,108 @@
+body {
+    background-color: whitesmoke;
+}
+ header {
+    text-align: center;
+    background-image: url(./imagenes/imagen\ de\ fondo.jfif);
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1305px;
+    height: 500px;
+ }
+
+section {
+    display:contents;
+    justify-items:flex-end;
+    border: 2px black;
+   
+
+
+}
+div {
+    border: 2px solid black ;
+}
+
+
+
+.divHeader h1 {
+    font-size: 100px;
+    font-family:'Roboto Condensed', sans-serif; 
+    font-weight: normal !important;
+    border: none;
+    font-style:oblique;
+
+}
+
+.divHeader {
+    height: 500px;
+    text-align: center;
+    display: flexbox;
+    flex-direction: inherit;
+    font-size: 50px;
+
+}
+p {
+    font-family: fantasy;
+    position: right;
+    font-size: 15px;
+}
+
+.titulohtm{
+    
+    font-size: 50px;
+
+    
+}
+
+button {
+    display:grid;
+    margin: auto;
+    float: row;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+    color: gray;
+    border:oklch(from color l c h);
+
+}
+button:hover {
+    background-color: violet;
+}
+.pa {
+    font-size: 60px;
+}
+
+footer {
+    width: 1300px;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    border: 2px solid black
+}
+
+.iconos {
+    position: end;
+    bottom: 0%;
+    padding: 0 50px;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.iconos > i{
+    font-size: 2.5rem;
+    padding: 0 10px;
+    transition: all 0.3 ease 0s;
+    cursor: pointer;
+}
+
+.iconos > i:hover {
+    color: blue;
+    background-color:white;
+       
+}
