@@ -3,7 +3,7 @@ body {
 }
  header {
     text-align: center;
-    background-image: url(imagenfondo);
+    background-image: url("imagenfondo.jpg");
     border: 2px solid black;
     align-items: center;
     justify-content: center;
